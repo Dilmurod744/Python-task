@@ -2,7 +2,6 @@ from django.contrib import admin
 from django.contrib.admin import StackedInline, ModelAdmin
 from django.utils.safestring import mark_safe
 from import_export.admin import ImportExportModelAdmin
-from mptt.admin import DraggableMPTTAdmin
 
 from apps.filters import PriceRangeFilter
 from apps.models import Category, Product, ProductImage, Shop
